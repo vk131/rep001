@@ -16,5 +16,7 @@ public class test001 {
 
         ArrayList<String> ad = new ArrayList<>();
         ad.add("123");
+        System.out.println("集合ad的值是==>"+ad);
+
     }
 }
