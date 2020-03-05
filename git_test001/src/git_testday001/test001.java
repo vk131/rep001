@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class test001 {
 
     public static void main(String[] args) {
+
         for (int i = 0; i <10 ; i++) {
             System.out.println("this is  git_test00"+i+" ");
         }
@@ -18,5 +19,14 @@ public class test001 {
         ad.add("123");
         System.out.println("集合ad的值是==>"+ad);
 
+        nametoJson();
+
     }
+
+
+    public static String nametoJson() {
+        String str1 = new String("z这是分支dev001");
+        return str1;
+    }
+
 }
