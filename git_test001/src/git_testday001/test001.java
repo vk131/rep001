@@ -1,5 +1,7 @@
 package git_testday001;
 
+import java.util.ArrayList;
+
 /**
  * @project_name:git_test001
  * @author: LK
@@ -11,5 +13,8 @@ public class test001 {
         for (int i = 0; i <10 ; i++) {
             System.out.println("this is  git_test00"+i+" ");
         }
+
+        ArrayList<String> ad = new ArrayList<>();
+        ad.add("123");
     }
 }
